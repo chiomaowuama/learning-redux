@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <h1 className='border-2 border-green-800'>all is good its working</h1>
+        {/* <h1 className='border-2 border-green-800'>all is good its working</h1> */}
       </div>
   
     </>

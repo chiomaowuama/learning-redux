@@ -3,10 +3,10 @@ import React, { useState } from 'react'
 function Home() {
   const [advice, setAdvice] = useState()
   async function getApi(){
-   const resp = await fetch("https://api.advicelip.com/advice");
-   const res = await resp.json()
-   setAdvice(res.slip.advice)
-   console.log(res.slip.advice)
+    const resp = await fetch('https://api.adviceslip.com/advice');
+    const res = await resp.json()
+    setAdvice(res.slip.advice)
+    console.log(res.slip.advice)
   }
 
   return (
